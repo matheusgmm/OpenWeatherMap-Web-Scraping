@@ -7,7 +7,7 @@ btn.addEventListener('click', function(){
 
 async function buscarDados() {
     const city = document.getElementById("city").value;
-    const apiKey = "4f6d261fcdda8aacfa59b56d33a9b008";
+    const apiKey = "API_KEY";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&lang=pt_br&units=metric`;
 
     try {
